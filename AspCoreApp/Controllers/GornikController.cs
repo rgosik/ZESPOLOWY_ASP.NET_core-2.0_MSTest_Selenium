@@ -89,6 +89,7 @@ namespace AspCoreApp.Controllers
             }
 
             _minerRepo.Update(miner);
+            await _minerRepo.Save();
             return RedirectToAction(nameof(Index));
         }
 
@@ -120,6 +121,7 @@ namespace AspCoreApp.Controllers
             }
 
             _minerRepo.Delete(miner);
+            await _minerRepo.Save();
             return RedirectToAction(nameof(Index));
         }
     }

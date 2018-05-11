@@ -5,7 +5,11 @@ VisualStudioVersion = 15.0.27428.2015
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AspCoreApp", "AspCoreApp\AspCoreApp.csproj", "{5891EEF3-CD81-4435-8744-1B5CB5765EDF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTest", "UnitTest\UnitTest.csproj", "{62CF901B-1BF1-47DF-BD05-EA277A452974}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnitTest", "UnitTest\UnitTest.csproj", "{62CF901B-1BF1-47DF-BD05-EA277A452974}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SeleniumTest", "SeleniumTest\SeleniumTest.csproj", "{4F014C32-6199-4972-B536-5907363324ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodedUITest", "CodedUITest\CodedUITest.csproj", "{FDE821A7-EFB6-407D-B162-61871F210E63}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{62CF901B-1BF1-47DF-BD05-EA277A452974}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{62CF901B-1BF1-47DF-BD05-EA277A452974}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{62CF901B-1BF1-47DF-BD05-EA277A452974}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F014C32-6199-4972-B536-5907363324ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F014C32-6199-4972-B536-5907363324ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F014C32-6199-4972-B536-5907363324ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F014C32-6199-4972-B536-5907363324ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDE821A7-EFB6-407D-B162-61871F210E63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDE821A7-EFB6-407D-B162-61871F210E63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDE821A7-EFB6-407D-B162-61871F210E63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDE821A7-EFB6-407D-B162-61871F210E63}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

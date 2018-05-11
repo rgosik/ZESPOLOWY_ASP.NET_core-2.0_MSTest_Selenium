@@ -45,6 +45,7 @@ namespace AspCoreApp
             else
             {
                 app.UseExceptionHandler("/Home/Error");
+                
             }
 
             app.UseStaticFiles();

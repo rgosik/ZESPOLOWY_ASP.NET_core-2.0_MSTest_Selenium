@@ -1,10 +1,6 @@
 ﻿using AspCoreApp.Controllers;
-using AspCoreApp.Data;
-using AspCoreApp.Models;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using System;
 using System.Threading.Tasks;
 using UnitTest.Double;
 
@@ -62,7 +58,7 @@ namespace UnitTest.Controllers
         }
 
         [TestMethod]
-        public async Task GornikEditDeleteTest()
+        public async Task GornikDeleteTest()
         {
             var kluczRepository = new FakeEntityKluczRepository();
             var gornikRepository = new FakeEntityGornikRepository();

@@ -116,6 +116,7 @@ namespace AspCoreApp.Controllers
             }
 
             _keyRepo.Delete(key);
+            await _keyRepo.Save();
             return RedirectToAction(nameof(Index));
         }
     }
